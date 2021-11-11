@@ -16,6 +16,10 @@ namespace prov_1_klass
       //fråga efter bruttolön
       Console.Write("Ange din bruttolön i kronor");
       int bruttolön = int.Parse(Console.ReadLine());
+      
+
+            int bruttolön = int.Parse(Console.ReadLine());
+
 
       //Kolla att vilkoren är uppfilda
       if (bruttolön >= 10000 && bruttolön <= 45000)
